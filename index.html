@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prestamos</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/jquery-confirm.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header"><a class="navbar-brand text-muted navbar-link" href="#">Sistema Prestamos</a>
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"></button>
+            </div>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav"></ul>
+            </div>
+        </div>
+    </nav>
+    <h4 class="text-center">Login de Usuarios</h4>
+    <form id="formulario">
+        <div class="form-group">
+            <input class="form-control" type="text" required="" placeholder="Usuario" autocomplete="off" id="usuario">
+        </div>
+        <div class="form-group">
+            <input class="form-control" type="password" required="" placeholder="Password" autocomplete="off" id="password">
+        </div>
+        <div class="form-group">
+            <button class="btn btn-default btn-block" type="submit" id="login">Entrar al Sistema</button>
+        </div>
+    </form>
+    <div class="alert alert-danger text-nowrap text-center" role="alert" id="error"><span>Usuario Invalido.</span></div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/controlador.js"></script>
+    <script src="assets/js/modelo.js"></script>
+    <script src="assets/js/jquery-confirm.min.js"></script>
+</body>
+
+</html>
